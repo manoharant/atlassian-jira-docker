@@ -38,7 +38,7 @@ services:
       - "5432:5432"
     environment:
       - "POSTGRES_USER=jira"
-      - "POSTGRES_PASSWORD=welcome123"
+      - "POSTGRES_PASSWORD=jellyfish"
       - "POSTGRES_DB=jiradb"
       - "POSTGRES_ENCODING=UNICODE"
       - "POSTGRES_COLLATE=C"
